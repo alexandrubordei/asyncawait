@@ -1,8 +1,6 @@
+package com.bigstep;
+
 import com.ea.async.Async;
-
-import java.util.concurrent.CompletableFuture;
-import java.util.function.Supplier;
-
 import static com.ea.async.Async.await;
 
 /**
