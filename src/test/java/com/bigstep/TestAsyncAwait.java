@@ -27,7 +27,7 @@ public class TestAsyncAwait {
         int returnedResult = await(methodThatEndsInFuture(1000));
 
         assertEquals(2000, returnedResult);
-        
+
     }
 
     private CompletableFuture<Integer> methodThatEndsInFuture(Integer milliseconds) throws InterruptedException {
