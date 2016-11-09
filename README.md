@@ -1,6 +1,6 @@
 # asyncawait example in java
 
-To import in intel jidea use 'import from Gradle'.
+To import in IntelliJ IDEA use 'import from Gradle'.
 
 To build (with tests):
 ```
